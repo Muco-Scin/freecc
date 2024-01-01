@@ -1,0 +1,165 @@
+<!doctype html>
+
+<html lang='en'>
+<head> 
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ <div class='container'>
+
+  <header class='header'>
+   <h1 id='title'> FreeCodeCamp test </h1>
+   <p id='description'><em> This is a free code camp test</em> </p>
+  </header>
+ 
+  <form id='survey-form'>
+
+   <div class='form-group'>
+    <label id='name-label'for='name'> Enter name <input id='name' type='text' placeholder='Name' class='form-control' required/></label>
+   </div>
+
+   <div class='form-group'>
+    <label id='email-label' for='email'> Enter email
+      <input id='email' type='email' placeholder='Email' class='form-control' required/></label>
+   </div>
+
+   <div class='form-group'>
+    <label id='number-label' for='number'> Enter age
+      <input id='number'type='number'min='13' max='120'placeholder='Age' class='form-control' required/></label>
+    </div>
+
+   <div class='form-group'>
+     <h2>Would you hire me to make you a website?</h2>
+    <label class='input-radio'><input type='radio' value='yes' name='radio'/> YES </label>
+    <label><input type='radio' value='yeah' name='radio'/> YEAH </label>
+    </div>
+
+   <div class='form-group'>
+     <h2> what do you think was the hardest part?</h2>
+    <select id='dropdown' class='form-control'name='try'>
+     <option disabled selected value>select one</option>
+     <option value='html'>HTML</option>
+     <option value='css'>CSS styling</option>
+     <option value='other'>Other</option>
+    </select>
+   </div>
+
+   <div class='form-group'>
+     <h2>Would you give me good grades?</h2>
+    <label class='check'><input name='checkbox' value='checkbox'type='checkbox' />10/10</label>
+    <label class='check'><input name='checkbox' value='checkbox'type='checkbox' />5/10</label>
+    <label class='check'><input name='checkbox' value='checkbox'type='checkbox' />0/10</label>
+   </div>
+
+   <div class='form-group'>
+    <h2> Anything to say?</h2> 
+    <textarea name='comments'id='comments'class='textarea-comments'placeholder='Anything to say...'></textarea>
+   </div>
+
+   <div class='form-group'>
+    <button type='submit' id='submit' class='submit-button'/>Submit</button>
+   </div>
+
+</form>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>body{
+  background-color:rgba(100,30,150,0.2)
+  margin: 50px auto;
+  padding: 20px auto}
+
+.container{
+  background-color: rgba(153,51,110,0.4);
+  margin:50px auto;
+  width:500px}
+
+h1 {font-family: Algerian; 
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin:0px auto;
+    padding: 1px}
+
+p {font-family: calibri; 
+    font-size: 0.5rem;
+    text-align: center;
+    color: white;
+    margin-left: 0px auto;
+    padding: 1px}
+
+h2 {font-family: calibri; 
+    font-size: 1rem;
+    font-style: ;
+    text-align: left;
+    color: white;
+    border: solid black;
+    background-color: rgb(153 51 102);
+    margin-left: 0px auto;
+    padding: 1px}
+
+.form-group{font-family: calibri;
+  font-size: 0.9rem;
+  background-color:rgba(153,51,110,0.4);
+  color: black;
+  text-align: left;
+  display:block;
+  margin: 10px auto;
+  padding:5px}
+
+.form-control{font-family: calibri;
+  font-size: 0.8rem;
+    text-align: start;
+    color: black;
+    background-color:white;
+    display:block;
+    width:490px;
+    height:25px;
+    margin: 0px}
+
+.input-radio {display: block}
+
+.check{display: block;}
+
+.textarea-comments {
+  text-align:left;
+  height: 100px;
+  width: 490px;
+  padding:10px;
+  margin: 20px auto;
+  border: solid black}
+
+.submit-button {
+  background-color: white;
+  color: rgb(153, 51, 102);
+  font-weight: bold;
+  width: 490px;
+  height: 30px;
+  margin-left: 0px auto;
+  border: solid black;
+  box-sizing: border-box}
+
+
+.survey-form{display: block; margin: 20px auto}</style>
